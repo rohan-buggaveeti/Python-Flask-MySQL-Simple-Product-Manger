@@ -1,9 +1,9 @@
 <form action="/add_item" method = "POST">
-    <p>Product ID<input type = "number" name = "pid" /></p>
-    <p>Product Name<input type = "text" name = "pname" /></p>
-    <p>Category<input type = "text" name = "cat"/></p>
-    <p>Quantity<input type = "number" name = "qty"/></p>
-    <p>Price<input type = "number" name = "price"/></p>
+    <p>Product ID<input type = "text" name = "pid" value="Auto-Generated" disabled/></p>
+    <p>Product Name<input type = "text" name = "pname" required/></p>
+    <p>Category<input type = "text" name = "cat" required/></p>
+    <p>Quantity<input type = "number" name = "qty" required/></p>
+    <p>Price<input type = "number" name = "price" required/></p>
     <p><input type = "submit" value = "Submit" /></p>
 </form>
 <a href = "/home"><button>Back</button></a>

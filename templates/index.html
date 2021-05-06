@@ -11,7 +11,6 @@
     <table class = "table">
         <thead class="thead-dark">
             <tr>
-                <th>ProductID</th>
                 <th>Product Name</th>
                 <th>Product Category</th>
                 <th>Quantity</th>
@@ -21,13 +20,12 @@
         </thead>
         {% for row in list %}
         <tr>
-            <td>{{ row[0] }}</td>
             <td>{{ row[1] }}</td>
             <td>{{ row[2] }}</td>
             <td>{{ row[3] }}</td>
             <td>{{ row[4] }}</td>
             <td>
-                <a href="">Delete</a>
+                <a href="/delete?pid={{ row[0] }}">Delete</a>
             </td>
         </tr>
         {% endfor %}
