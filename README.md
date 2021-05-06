@@ -1,1 +1,2 @@
 # PFSD-Web-Dev-Project
+This project aims to combine some Data analytics, web scraping with python and python+flask+mysql development and present an automobile website which fetches the latest news from the internet based on the automobile brand that the user selects.
