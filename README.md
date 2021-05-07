@@ -1,2 +1,2 @@
-# PFSD-Web-Dev-Project
-This project aims to combine some Data analytics, web scraping with python and python+flask+mysql development and present an automobile website which fetches the latest news from the internet based on the automobile brand that the user selects.
+# Python-Flask Product Manager
+A simple product manager app made using Python, Flask and, MySQL. The aim of this project was to get an idea on python full stack development and how to deploy a python full stack we application onto a hosting server.
